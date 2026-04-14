@@ -1,6 +1,9 @@
+import '@/global.css';
 import { Stack } from "expo-router";
-import '@/global.css'
+import { View } from 'react-native';
 
 export default function RootLayout() {
-  return <Stack screenOptions={{headerShown:false}} />;
+  return  <View style={{ flex: 1, backgroundColor: "black" }}>
+      <Stack screenOptions={{ headerShown: false }} />
+    </View>;
 }
