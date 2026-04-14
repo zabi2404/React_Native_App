@@ -7,7 +7,7 @@ import { SafeAreaView as RNSafeAreaView } from "react-native-safe-area-context";
 const SafeAreaView =  styled(RNSafeAreaView)
 export default function Home() {
     return (
-        <SafeAreaView className="flex-1  p-5  bg-white">
+        <SafeAreaView className="flex-1  p-5  ">
             <Text className="text-xl font-bold text-yellow-500">
                 Welcome to App!
             </Text>

@@ -3,7 +3,7 @@ import { Text, View } from "react-native";
 
 export default function Onboarding() {
     return (
-        <View className="flex-1 justify-center bg-white px-6">
+        <View className="flex-1 justify-center  px-6">
             <Text className="mb-4 text-2xl font-bold text-blue-500">
                 Subscriptions
             </Text>
